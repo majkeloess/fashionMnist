@@ -92,18 +92,18 @@ The table is organized by class (represented by numbers 0 to 9 in the Fashion-MN
 
 The classification report provides a detailed evaluation of the KNN classifier's performance on the Fashion-MNIST test set. The **confusion matrix**, a tabular representation of true positive, true negative, false positive, and false negative predictions, offers further insights into the classifier's behavior. The confusion matrix allows us to assess how well the classifier performs for each class, revealing patterns of misclassifications and highlighting areas for improvement. True positives, true negatives, false positives, and false negatives contribute to the overall understanding of the model's strengths and weaknesses. The heatmap visualization of the confusion matrix enhances interpretability by providing a visual representation of the classification performance. Intensity of color indicates the number of instances falling into each category. 
  
-The overall accuracy of the KNN classifier is reported to be 0.86, indicating that approximately 86% of the instances in the Fashion-MNIST test set were correctly classified. This metric serves as a general measure of the model's effectiveness in making accurate predictions across all classes. 
+The overall accuracy of the KNN classifier is reported to be `0.86`, indicating that approximately `86%` of the instances in the Fashion-MNIST test set were correctly classified. This metric serves as a general measure of the model's effectiveness in making accurate predictions across all classes. 
 
 # Conclusion
-In comparing the results of clustering and classification, the K-Means clustering algorithm yielded an accuracy of 0.56, indicating a moderate success in grouping similar instances within the Fashion-MNIST dataset. However, it's important to note that clustering operates in an unsupervised manner, and the clusters may not align precisely with the true class labels. On the other hand, the K-Nearest Neighbors (KNN) classifier achieved an overall accuracy of 0.86, showcasing a substantial success in categorizing clothing items based on reduced-dimensional features obtained through Principal Component Analysis (PCA). The supervised nature of classification, with explicit class labels, allows for a more direct evaluation of model performance on unseen data. The higher accuracy in classification suggests the effectiveness of supervised learning techniques in capturing the diverse patterns and styles present in the Fashion-MNIST dataset.
+In comparing the results of clustering and classification, the K-Means clustering algorithm yielded an accuracy of `0.56`, indicating a moderate success in grouping similar instances within the Fashion-MNIST dataset. However, it's important to note that clustering operates in an unsupervised manner, and the clusters may not align precisely with the true class labels. On the other hand, the K-Nearest Neighbors (KNN) classifier achieved an overall accuracy of `0.86`, showcasing a substantial success in categorizing clothing items based on reduced-dimensional features obtained through Principal Component Analysis (PCA). The supervised nature of classification, with explicit class labels, allows for a more direct evaluation of model performance on unseen data. The higher accuracy in classification suggests the effectiveness of supervised learning techniques in capturing the diverse patterns and styles present in the Fashion-MNIST dataset.
 
 
 # References
 
 - [Fashion MNIST GitHub Repository](https://github.com/zalandoresearch/fashion-mnist)
 - [Fashion MNIST Kaggle Dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
-- [YouTube: "Fashion MNIST Dataset Explained"](https://www.youtube.com/watch?v=3bHxOYczJn0)
-- [YouTube: "Introduction to Fashion MNIST"](https://www.youtube.com/watch?v=TKfTKA5EmmY&t=302s)
+- [YouTube: "MNIST Dataset Explained"](https://www.youtube.com/watch?v=3bHxOYczJn0)
+- [YouTube: "Introduction to MNIST"](https://www.youtube.com/watch?v=TKfTKA5EmmY&t=302s)
 - [Medium: "K-Means Clustering for Image Classification"](https://medium.com/@joel_34096/k-means-clustering-for-image-classification-a648f28bdc47)
 - Data Science Lectures 
 
