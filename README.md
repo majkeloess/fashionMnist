@@ -1,5 +1,6 @@
 # fashionMnist
-The project provides a foundation for understanding the practical challenges and nuances associated with real-world data analysis tasks. The success of the classification model suggests the importance of supervised learning techniques, especially in scenarios where distinct class labels are available.
+The project provides a foundation for understanding the practical challenges and nuances associated with real-world data analysis tasks. The success of the classification model suggests the importance of supervised learning techniques, especially in scenarios where distinct class labels are available. 
+## [Kaggle link](https://www.kaggle.com/code/majkeloess/fashion-mnist-dataset-analysis-ds-winter-project?scriptVersionId=159907141)
 
 # Dataset Description
 The `Fashion-MNIST` dataset serves as the cornerstone of our exploration into practical data analysis, offering a nuanced departure from the traditional MNIST dataset. Crafted as a response to the need for more challenging validation datasets, Fashion-MNIST introduces a diverse collection of grayscale images, each representing various clothing articles from Zalando's inventory. With ten distinct classes, including T-shirts, trousers, dresses, and more, the dataset expands the horizons of image classification. Notably, the images are formatted as **28x28** grayscale representations, presenting a unique challenge and opportunity for algorithms to discern meaningful features from relatively small images.
